@@ -1,10 +1,5 @@
-17 error Error: Command failed with exit code 1: git remote update
-17 error remote: Repository not found.
-17 error fatal: repository 'https://github.com/akash-kumar-cmdk/stencil-sdk.git/' not found
-17 error     at makeError (/Users/akashkumar/Desktop/My - Projects/stencil-sdk/node_modules/execa/lib/error.js:59:11)
-17 error     at module.exports.sync (/Users/akashkumar/Desktop/My - Projects/stencil-sdk/node_modules/execa/index.js:186:17)
-17 error     at Object.execSync (/Users/akashkumar/Desktop/My - Projects/stencil-sdk/node_modules/@lerna/child-process/index.js:39:16)
-17 error     at updateRemote (/Users/akashkumar/Desktop/My - Projects/stencil-sdk/node_modules/lerna/dist/index.js:7574:18)
-17 error     at isBehindUpstream (/Users/akashkumar/Desktop/My - Projects/stencil-sdk/node_modules/lerna/dist/index.js:7564:3)
-17 error     at VersionCommand.initialize (/Users/akashkumar/Desktop/My - Projects/stencil-sdk/node_modules/lerna/dist/index.js:7871:57)
-17 error     at VersionCommand.runCommand (/Users/akashkumar/Desktop/My - Projects/stencil-sdk/node_modules/lerna/dist/index.js:1740:36)
+45 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
+45 error remote: Permission to akash-kumar-cmdk/stencil-sdk.git denied to akash-qlinks.
+45 error fatal: unable to access 'https://github.com/akash-kumar-cmdk/stencil-sdk.git/': The requested URL returned error: 403
+45 error     at makeError (/Users/akashkumar/Desktop/My - Projects/stencil-sdk/node_modules/execa/lib/error.js:59:11)
+45 error     at handlePromise (/Users/akashkumar/Desktop/My - Projects/stencil-sdk/node_modules/execa/index.js:114:26)

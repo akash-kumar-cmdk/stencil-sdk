@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "stencil-sdk",
   "private": true,
   "workspaces": [
     "packages/*"
