@@ -1,6 +1,6 @@
 {
   "name": "react-library",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "cmdk",
   "author": "Akash Kumar <122004642+akash-kumar-cmdk@users.noreply.github.com>",
   "homepage": "https://cmdk.ai",
@@ -24,7 +24,7 @@
     "access": "public"
   },
   "dependencies": {
-    "stencil-library": "*"
+    "stencil-library": "^0.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.21",
