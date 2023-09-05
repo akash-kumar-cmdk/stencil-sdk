@@ -1,8 +1,5 @@
 'use strict';
-module.exports = reactLibrary;
 export * from './components/stencil-generated';
-export { defineCustomElements } from "stencil-library/loader";
-function reactLibrary() {
-    return 'Hello from reactLibrary';
-}
+export { Command } from './src/Command';
+export { defineCustomElements } from "../../stencil-library/loader/index";
 //# sourceMappingURL=index.js.map

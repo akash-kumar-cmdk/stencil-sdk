@@ -1,2 +1,3 @@
 export * from './components/stencil-generated';
-export { defineCustomElements } from "stencil-library/loader";
+export { Command } from './src/Command';
+export { defineCustomElements } from "../../stencil-library/loader/index";

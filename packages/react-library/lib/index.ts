@@ -1,9 +1,10 @@
 'use strict';
 
-module.exports = reactLibrary;
+// module.exports = reactLibrary;
 export * from './components/stencil-generated';
-export { defineCustomElements } from "stencil-library/loader";
+export { Command } from './src/Command'; // For Stencil
+export { defineCustomElements } from "../../stencil-library/loader/index";
 
-function reactLibrary() {
-  return 'Hello from reactLibrary';
-}
+// function reactLibrary() {
+//   return 'Hello from reactLibrary';
+// }

@@ -7,4 +7,5 @@ import type { JSX } from 'stencil-library';
 
 
 
+export const CmdkCommand = /*@__PURE__*/createReactComponent<JSX.CmdkCommand, HTMLCmdkCommandElement>('cmdk-command');
 export const MyComponent = /*@__PURE__*/createReactComponent<JSX.MyComponent, HTMLMyComponentElement>('my-component');

@@ -1,6 +1,6 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "@cmdk/stencil-sdk",
+  "version": "0.0.16",
   "workspaces": [
     "packages/*"
   ],
